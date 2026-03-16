@@ -8,8 +8,8 @@ EmployeeRecordSystem/
 │   ├── Employee.java          # Model class — implements Comparable<Employee>
 │   ├── EmployeeManager.java   # Core logic — all CRUD + query methods
 │   └── Main.java              # Entry point — interactive CLI menu + seed data
+│
 
-Java Collections Used
 
 Map<String, Employee>         employeeMap      = new HashMap<>();   // O(1) ID-based CRUD
 List<Employee>                employeeList     = new ArrayList<>();  // Insertion-order display
