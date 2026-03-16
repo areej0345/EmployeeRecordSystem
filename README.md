@@ -1,7 +1,7 @@
 Overview
 The Employee Record Management System (ERMS) demonstrates practical use of Java Collections Framework for real-world data management. It supports full CRUD operations (Create, Read, Update, Delete), multi-field search, department filtering, salary range queries, and live statistics — all from an interactive terminal menu.
-Features
-FeatureDescription➕ Add EmployeeValidates duplicate IDs and emails before inserting✏️ Update EmployeeFull update or salary-only update🗑️ Delete EmployeeRemoves from all collection indexes consistently🔍 Search by IDO(1) HashMap lookup🔎 Search by NameCase-insensitive partial match via Stream🏢 Filter by DepartmentO(1) department index lookup💰 Salary Range FilterStream-based range filtering, sorted by salary🏆 Highest PaidSingle-pass Stream max()📊 StatisticsTotal count, average salary, department headcount🔤 Sorted ListingAlphabetical order via TreeSet + Comparable
+
+Project Structure
 EmployeeRecordSystem/
 │
 ├── src/
